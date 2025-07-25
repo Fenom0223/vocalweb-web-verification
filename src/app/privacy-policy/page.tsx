@@ -47,7 +47,6 @@ export default function PrivacyPolicyPage() {
           <h2 className="text-2xl font-bold pt-4">{t.privacyPolicy.contactTitle}</h2>
           <p>{t.privacyPolicy.contactText}</p>
           <p>
-            VocalWeb Solutions<br/>
             Email: admin@vocalweb.club<br/>
             Phone: +5492954309600<br/>
             Address: Catamarca 584, 6300, Santa Rosa, Argentina
