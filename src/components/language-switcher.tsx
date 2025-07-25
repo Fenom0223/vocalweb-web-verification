@@ -15,7 +15,7 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('en')}
         className={cn(
           'rounded-full px-3 py-1 text-xs',
-          language === 'en' ? 'bg-primary/20 text-primary' : 'text-foreground'
+          language === 'en' ? 'bg-primary/20 text-primary' : 'text-foreground/80 hover:text-primary'
         )}
       >
         EN
@@ -26,7 +26,7 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('es')}
         className={cn(
           'rounded-full px-3 py-1 text-xs',
-          language === 'es' ? 'bg-primary/20 text-primary' : 'text-foreground'
+          language === 'es' ? 'bg-primary/20 text-primary' : 'text-foreground/80 hover:text-primary'
         )}
       >
         ES
