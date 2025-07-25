@@ -46,7 +46,7 @@ export const translations = {
         { title: 'Cold caller AI agent', description: 'Optimizes your prospecting efforts. this agent initiates sales conversations, qualifies leads, and schedules meetings, transforming customer acquisition processes with unmatched efficiency.', devPrice: '$5,000', monthlyPrice: '$500' },
       ],
       comprehensive: {
-        title: 'Support 2.0 system (comprehensive system)',
+        title: 'Support 2.0 system',
         description: 'Unlock the full potential of AI automation. our comprehensive system integrates all voice agents for seamless synergy, managing end-to-end communication, from initial prospecting to post-sales support. a complete solution to transform your business.',
         devPrice: '$16,000',
         monthlyPrice: '$2,400',
@@ -212,7 +212,7 @@ export const translations = {
         { title: 'Agente IA de prospección', description: 'Optimiza sus esfuerzos de prospección. este agente inicia conversaciones de ventas, califica leads y agenda reuniones, transformando los procesos de adquisición de clientes con una eficiencia inigualable.', devPrice: '$5,000', monthlyPrice: '$500' },
       ],
       comprehensive: {
-        title: 'Sistema support 2.0 (sistema integral)',
+        title: 'Sistema support 2.0',
         description: 'Desbloquee todo el potencial de la automatización por IA. nuestro sistema integral integra todos los agentes de voz para una sinergia perfecta, gestionando la comunicación de extremo a extremo, desde la prospección inicial hasta el soporte posventa. una solución completa para transformar su negocio.',
         devPrice: '$16,000',
         monthlyPrice: '$2,400',
