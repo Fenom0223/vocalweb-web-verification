@@ -7,7 +7,7 @@ export const translations = {
       contact: 'Contact us',
     },
     hero: {
-      title: 'Intelligent voice automation.',
+      title: 'Intelligent voice automation',
       subtitle: 'Transform customer interactions and internal management with cutting-edge AI voice agents, designed to optimize every business process.',
       cta: 'Request a demo',
       secondaryCta: 'View pricing',
@@ -173,7 +173,7 @@ export const translations = {
       contact: 'Contáctanos',
     },
     hero: {
-      title: 'Automatización inteligente por voz.',
+      title: 'Automatización inteligente por voz',
       subtitle: 'Transforme las interacciones con clientes y la gestión interna con agentes de voz IA de vanguardia, diseñados para optimizar cada proceso de negocio.',
       cta: 'Solicitar demo',
       secondaryCta: 'Ver precios',
