@@ -16,9 +16,8 @@ export default function Hero() {
         <div
           className="absolute inset-0 animate-background-pan"
           style={{
-            backgroundImage: `radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.15), transparent 30%), 
-                             radial-gradient(circle at 80% 70%, hsl(var(--primary) / 0.15), transparent 30%)`,
-            backgroundSize: '200% 200%',
+            backgroundImage: `radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.25), transparent 35%), 
+                             radial-gradient(circle at 80% 70%, hsl(var(--primary) / 0.25), transparent 35%)`,
           }}
         />
       </div>
