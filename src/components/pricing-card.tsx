@@ -21,11 +21,10 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
   return (
     <Card className={cn(
       "glassmorphism flex flex-col transition-all duration-300 card-glow",
-      isComprehensive ? "border-primary/50 shadow-primary/20" : "border-white/10",
-      "h-full"
+      "h-full card-animated-border"
     )}>
       <CardHeader className="pb-4">
-        <CardTitle className={cn("text-2xl font-bold", isComprehensive ? "text-primary" : "text-foreground")}>
+        <CardTitle className={cn("text-2xl font-bold title-gradient title-glow")}>
           {title}
         </CardTitle>
         <CardDescription className="text-foreground/70 pt-2 min-h-[6rem]">
@@ -42,7 +41,7 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
             <p className="text-4xl font-bold">{monthlyPrice}</p>
         </div>
         {features && (
-          <div className="mt-6 pt-6 border-t border-white/10 space-y-3">
+          <div className="mt-6 pt-6 border-t border-primary/20 space-y-3">
             {features.map((feature, index) => (
               <div key={index} className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-primary" />

@@ -31,7 +31,7 @@ export default function Services() {
   ];
 
   return (
-    <section id="services" className="py-20 sm:py-32 bg-card/30">
+    <section id="services" className="py-20 sm:py-32">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">{t.services.title}</h2>
@@ -40,7 +40,7 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="glassmorphism text-center p-6 border-white/10">
+            <Card key={index} className="glassmorphism text-center p-6 card-glow">
               <CardHeader className="flex flex-col items-center">
                 <div className="mb-4 p-4 bg-primary/10 rounded-full">
                   {feature.icon}

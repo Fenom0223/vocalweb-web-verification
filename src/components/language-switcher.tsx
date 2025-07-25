@@ -8,14 +8,14 @@ export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div className="flex items-center gap-1 rounded-full border p-1">
+    <div className="flex items-center gap-1 rounded-full border border-primary/50 p-1">
       <Button
         variant="ghost"
         size="sm"
         onClick={() => setLanguage('en')}
         className={cn(
           'rounded-full px-3 py-1 text-xs',
-          language === 'en' && 'bg-primary/20 text-primary'
+          language === 'en' ? 'bg-primary/20 text-primary' : 'text-foreground'
         )}
       >
         EN
@@ -26,7 +26,7 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('es')}
         className={cn(
           'rounded-full px-3 py-1 text-xs',
-          language === 'es' && 'bg-primary/20 text-primary'
+          language === 'es' ? 'bg-primary/20 text-primary' : 'text-foreground'
         )}
       >
         ES
