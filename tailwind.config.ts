@@ -94,6 +94,7 @@ export default {
         lg: '0 10px 15px rgba(0, 0, 0, 0.1)',
         xl: '0 20px 25px rgba(0, 0, 0, 0.1)',
         '2xl': '0 25px 50px rgba(0, 0, 0, 0.25)',
+        'glow': '0 0 12px #00BFFF, 0 0 24px #00FFFF40',
         none: 'none',
       },
     },

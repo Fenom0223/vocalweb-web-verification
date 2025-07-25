@@ -84,6 +84,6 @@
   }
 
   .title-glow {
-    @apply text-shadow-[0_0_12px_#00BFFF,0_0_24px_#00FFFF40];
+    @apply text-shadow-glow;
   }
 }
