@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-                <Image src="/logo-vocal-dash.png" alt="VocalWeb Solutions Logo" width={160} height={35} />
+                <Image src="/logo-vocal-dash.png" alt="VocalWeb Solutions Logo" width={120} height={26} />
             </div>
             <p className="text-sm text-muted-foreground">{t.footer.tagline}</p>
           </div>
