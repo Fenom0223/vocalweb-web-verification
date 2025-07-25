@@ -34,7 +34,7 @@ export default function Services() {
     <section id="services" className="py-20 sm:py-32 bg-card/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-wide title-gradient title-glow">{t.services.title}</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4">{t.services.title}</h2>
           <p className="max-w-3xl mx-auto text-lg text-muted-foreground">{t.services.description}</p>
         </div>
 
@@ -45,7 +45,7 @@ export default function Services() {
                 <div className="mb-4 p-4 bg-primary/10 rounded-full">
                   {feature.icon}
                 </div>
-                <CardTitle className="text-2xl font-bold">{feature.title}</CardTitle>
+                <CardTitle className="text-2xl font-bold text-foreground">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{feature.description}</p>

@@ -13,7 +13,7 @@ const inter = Inter({
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  weight: ['700', '800'],
+  weight: ['500', '700', '800'],
   variable: '--font-plus-jakarta-sans',
 });
 
@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} ${plusJakartaSans.variable} font-body antialiased bg-background`}>
+      <body className={`${inter.variable} ${plusJakartaSans.variable} font-body antialiased bg-background text-foreground/90`}>
         <LanguageProvider>
           <Header />
           <main>{children}</main>

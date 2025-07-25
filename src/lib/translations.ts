@@ -120,7 +120,7 @@ export const translations = {
     },
     terms: {
       title: "Terms and conditions of service",
-      effectiveDate: "Effective date: July 19, 2025",
+      effectiveDate: "Effective date: july 19, 2025",
       intro: "Welcome to VocalWeb Solutions. These Terms and Conditions (\"Terms\") govern your access to and use of the AI automation and voice agent services (\"Services\") provided by VocalWeb Solutions, which may also be referred to as \"we\", \"our\", or \"us\" throughout this document. By accessing or using our Services, you signify your complete agreement to comply with and be bound by these Terms.",
       serviceTitle: "Service description",
       serviceText: "VocalWeb solutions offers workflow automation and customer interaction solutions using artificial intelligence-powered voice agents. our services include, but are not limited to: inbound agent, outbound agent, reminder agent, web informer agent, and cold caller agent, as well as the comprehensive 'support 2.0 system.' these services are Software as a Service (SaaS) in nature, designed to integrate with third-party platforms such as Google Workspace (Calendar, Sheets, Drive, Gmail) and other systems to optimize business operations.",

@@ -25,7 +25,7 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
       "h-full"
     )}>
       <CardHeader className="pb-4">
-        <CardTitle className={cn("text-2xl font-bold", isComprehensive && "text-primary")}>
+        <CardTitle className={cn("text-2xl font-bold", isComprehensive ? "text-primary" : "text-foreground")}>
           {title}
         </CardTitle>
         <CardDescription className="text-foreground/70 pt-2 min-h-[6rem]">
@@ -53,7 +53,7 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
         )}
       </CardContent>
       <CardFooter>
-        <Button asChild className={cn("w-full button-glow", isComprehensive ? "bg-primary text-primary-foreground hover:bg-primary/90" : "bg-white/10 hover:bg-white/20 text-foreground")}>
+        <Button asChild className="w-full button-glow" variant={isComprehensive ? 'default' : 'secondary'}>
           <a href="mailto:admin@vocalweb.club?subject=Personalized Demo Request">{t.pricing.cta}</a>
         </Button>
       </CardFooter>
