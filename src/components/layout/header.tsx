@@ -84,7 +84,7 @@ export default function Header() {
                   <nav className="flex flex-col items-center gap-6 text-lg">
                     {navLinks.map(link => (
                       <SheetTrigger asChild key={link.href}>
-                         <Link href={link.href} className="font-medium text-foreground hover:text-primary transition-colors">
+                         <Link href={link.href} className="font-bold text-foreground hover:text-primary transition-colors">
                            {link.label}
                          </Link>
                       </SheetTrigger>

@@ -8,7 +8,7 @@ export default function Cta() {
   return (
     <section id="cta" className="py-20 sm:py-32">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-5xl font-headline font-bold mb-4 text-glow">
+        <h2 className="text-3xl md:text-5xl font-bold mb-4 tracking-wide title-gradient title-glow">
           {t.cta.title}
         </h2>
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-8">

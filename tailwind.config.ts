@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Roboto', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        body: ['var(--font-inter)', 'sans-serif'],
+        headline: ['var(--font-plus-jakarta-sans)', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -88,7 +88,15 @@ export default {
         'accordion-up': 'accordion-up 0.2s ease-out',
         'background-pan': 'background-pan 15s ease infinite',
       },
+      textShadow: {
+        DEFAULT: '0 2px 4px rgba(0, 0, 0, 0.1)',
+        md: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        lg: '0 10px 15px rgba(0, 0, 0, 0.1)',
+        xl: '0 20px 25px rgba(0, 0, 0, 0.1)',
+        '2xl': '0 25px 50px rgba(0, 0, 0, 0.25)',
+        none: 'none',
+      },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), require('tailwindcss-textshadow')],
 } satisfies Config;

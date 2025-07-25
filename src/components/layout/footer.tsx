@@ -22,13 +22,13 @@ export default function Footer() {
           <div>
             <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
                 <VocalWebLogo />
-                <h3 className="text-xl font-headline font-bold">VocalWeb Solutions</h3>
+                <h3 className="text-xl font-bold">VocalWeb Solutions</h3>
             </div>
             <p className="text-sm text-muted-foreground">{t.footer.tagline}</p>
           </div>
           
           <div>
-            <h4 className="font-headline font-semibold mb-4">{t.footer.linksTitle}</h4>
+            <h4 className="font-semibold mb-4">{t.footer.linksTitle}</h4>
             <ul className="space-y-2">
               <li><Link href="/#services" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t.nav.services}</Link></li>
               <li><Link href="/#pricing" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t.nav.pricing}</Link></li>
@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="font-headline font-semibold mb-4">{t.footer.legalTitle}</h4>
+            <h4 className="font-semibold mb-4">{t.footer.legalTitle}</h4>
             <ul className="space-y-2">
               <li><Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t.footer.privacy}</Link></li>
               <li><Link href="/terms-conditions" className="text-sm text-muted-foreground hover:text-primary transition-colors">{t.footer.terms}</Link></li>

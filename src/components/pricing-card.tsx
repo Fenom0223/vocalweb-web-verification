@@ -25,7 +25,7 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
       "h-full"
     )}>
       <CardHeader className="pb-4">
-        <CardTitle className={cn("text-2xl font-headline font-bold", isComprehensive && "text-primary")}>
+        <CardTitle className={cn("text-2xl font-bold", isComprehensive && "text-primary")}>
           {title}
         </CardTitle>
         <CardDescription className="text-foreground/70 pt-2 min-h-[6rem]">
@@ -35,11 +35,11 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
       <CardContent className="flex-grow">
         <div className="mb-6">
             <p className="text-sm text-muted-foreground">{t.pricing.devFee}</p>
-            <p className="text-4xl font-headline font-bold">{devPrice}</p>
+            <p className="text-4xl font-bold">{devPrice}</p>
         </div>
         <div>
             <p className="text-sm text-muted-foreground">{t.pricing.monthlyFee}</p>
-            <p className="text-4xl font-headline font-bold">{monthlyPrice}</p>
+            <p className="text-4xl font-bold">{monthlyPrice}</p>
         </div>
         {features && (
           <div className="mt-6 pt-6 border-t border-white/10 space-y-3">

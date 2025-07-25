@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto px-4 z-10 text-center">
-        <h1 className="text-4xl md:text-7xl font-headline font-extrabold mb-6 leading-tight text-glow">
+        <h1 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight tracking-wide title-gradient title-glow">
           {t.hero.title}
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-xl text-foreground/80 mb-10">
