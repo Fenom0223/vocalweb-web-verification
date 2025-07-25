@@ -65,7 +65,7 @@ export default function Header() {
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
+                  <Menu className="h-6 w-6 text-primary" />
                 </Button>
               </SheetTrigger>
               <SheetContent side="right" className="bg-background/90 backdrop-blur-lg border-l border-white/10">
@@ -76,7 +76,7 @@ export default function Header() {
                          </Link>
                          <SheetTrigger asChild>
                             <Button variant="ghost" size="icon">
-                                <X className="h-6 w-6" />
+                                <X className="h-6 w-6 text-primary" />
                             </Button>
                          </SheetTrigger>
                     </div>
