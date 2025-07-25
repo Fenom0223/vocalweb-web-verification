@@ -78,6 +78,20 @@ export default {
             height: '0',
           },
         },
+        'background-pan': {
+          '0%': {
+            backgroundPosition: '0% 50%',
+            backgroundSize: '200% 200%',
+          },
+          '50%': {
+            backgroundPosition: '100% 50%',
+            backgroundSize: '250% 250%',
+          },
+          '100%': {
+            backgroundPosition: '0% 50%',
+            backgroundSize: '200% 200%',
+          },
+        },
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
