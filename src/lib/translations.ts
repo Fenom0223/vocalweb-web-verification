@@ -1,3 +1,4 @@
+
 export const translations = {
   en: {
     nav: {
@@ -14,7 +15,7 @@ export const translations = {
     },
     services: {
       title: 'Power your business with AI',
-      description: 'At vocalWeb solutions, we create automated AI-powered workflows that go beyond the conventional. our intelligent voice agents seamlessly integrate with your existing platforms, freeing your team from repetitive tasks and opening new avenues for growth and efficiency. from customer service to prospecting, we redefine automation.',
+      description: 'At Vocalweb solutions, we create automated AI-powered workflows that go beyond the conventional. our intelligent voice agents seamlessly integrate with your existing platforms, freeing your team from repetitive tasks and opening new avenues for growth and efficiency. from customer service to prospecting, we redefine automation.',
       feature1: {
         title: 'Intelligent agents',
         description: 'AI-powered voice agents capable of natural, context-aware conversations for superior customer engagement.'
@@ -117,16 +118,16 @@ export const translations = {
     terms: {
       title: "Terms and conditions of service",
       effectiveDate: "Effective date: july 19, 2025",
-      intro: "Welcome to Vocalweb Solutions. These Terms and Conditions (\"Terms\") govern your access to and use of the AI automation and voice agent services (\"Services\") provided by Vocalweb Solutions, which may also be referred to as \"we\", \"our\", or \"us\" throughout this document. By accessing or using our Services, you signify your complete agreement to comply with and be bound by these Terms.",
+      intro: "Welcome to Vocalweb solutions. These Terms and Conditions (\"Terms\") govern your access to and use of the AI automation and voice agent services (\"Services\") provided by Vocalweb solutions, which may also be referred to as \"we\", \"our\", or \"us\" throughout this document. By accessing or using our Services, you signify your complete agreement to comply with and be bound by these Terms.",
       serviceTitle: "Service description",
-      serviceText: "Vocalweb solutions offers workflow automation and customer interaction solutions using artificial intelligence-powered voice agents. our services include, but are not limited to: inbound agent, outbound agent, reminder agent, web informer agent, and cold caller agent, as well as the comprehensive 'support 2.0 system.' these services are Software as a Service (SaaS) in nature, designed to integrate with third-party platforms such as Google Workspace (Calendar, Sheets, Drive, Gmail) and other systems to optimize business operations.",
+      serviceText: "Vocalweb solutions offers workflow automation and customer interaction solutions using artificial intelligence-powered voice agents. our services include, but are not limited to: inbound agent, outbound agent, reminder agent, web informer agent, and cold caller agent, as well as the comprehensive 'support 2.0 system.' these services are Software as a Service (SaaS) in nature, designed to integrate with third-party platforms such as Google Workspace (Calendar, Sheets) and other systems to optimize business operations.",
       acceptableUseTitle: "Nature of services and acceptable use",
       acceptableUseText1: "Our services are software products that provide tools and automations. we are not direct human service providers (such as consulting, support, design, coaching), nor do we sell physical goods, nor do we facilitate cryptocurrency trading, gambling, or any other prohibited category. our core offering focuses on the provision and maintenance of AI-based software solutions for business process automation.",
       acceptableUseText2: "You agree to use our services in accordance with all applicable laws and regulations. you shall not use the services for any illegal, fraudulent, deceptive, unfair, or predatory practices, or practices that infringe upon the rights of third parties. you are responsible for ensuring you have the necessary rights and consents from your customers for Vocalweb solutions to access and process their data through any integrated APIs or other platforms.",
       registrationTitle: "Registration and accounts",
       registrationText: "To access and use our services, you may need to register an account. you are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. you will notify us immediately of any unauthorized use.",
       apiAccessTitle: "Access to third-party APIs",
-      apiAccessText: "Our services interact with various APIs (e.g., Google Calendar, Google Sheets, Google Drive, Gmail, among others) to execute automations. by integrating these services, you grant us permission to access and process your data and your customers' data on these platforms, solely and exclusively for the purpose of providing the contracted service. you are responsible for configuring your API credentials and any necessary settings in your accounts for the proper functioning of the flows.",
+      apiAccessText: "Our services interact with various APIs (e.g., Google Calendar, Google Sheets, among others) to execute automations. by integrating these services, you grant us permission to access and process your data and your customers' data on these platforms, solely and exclusively for the purpose of providing the contracted service. you are responsible for configuring your API credentials and any necessary settings in your accounts for the proper functioning of the flows.",
       pricingTitle: "Pricing and payments",
       pricingText: "The prices for our services are detailed on our website www.vocalweb.club. payments are processed through our trusted partners. by making a purchase, you agree to the terms and conditions of our payment partners and any applicable billing or subscription policy. development payments are one-time for implementation, and maintenance payments are recurring monthly based on the contracted plan.",
       ipTitle: "Intellectual property",
@@ -145,20 +146,20 @@ export const translations = {
       effectiveDate: "Effective date: july 19, 2025",
       intro: "At Vocalweb solutions, we are committed to your satisfaction with our AI automation services. we understand that situations may arise requiring a refund policy. please read the following terms carefully.",
       developmentTitle: "Initial development (development fee)",
-      developmentText: "The initial development fee paid for the custom implementation of any of our voice agents (inbound, outbound, reminder, web informer, cold caller) or the 'support 2.0 system' is non-refundable once the development and implementation process has begun and significant resources have been dedicated to your project. this is due to the nature of customized service and the resources invested in the initial setup and adaptation of specific workflows for your business needs.",
-      maintenanceTitle: "Monthly maintenance (maintenance fee)",
-      maintenanceText: "Monthly maintenance fees are for the continuous provision of the service and are non-refundable once the service period for which they were billed has commenced. if you decide to cancel your maintenance subscription, your service will remain active until the end of the current paid monthly billing cycle, and you will not be charged for future cycles. no partial refunds will be issued for the current month.",
-      exceptionsTitle: "Exceptional cases",
-      exceptionsIntro: "We will consider refunds only in exceptional circumstances and at our sole discretion, such as:",
-      exception1: "If Vocalweb solutions is unable to provide the contracted service due to reasons directly attributable to us (e.g., critical and inexplicable failures in our platform that prevent the main operation of the service for an extended period and are not resolved within a reasonable time), and not due to external factors beyond our control (e.g., client connectivity issues, incorrect configurations by the client or third-party services, changes in third-party API policies).",
-      exception2: "In cases of clear and verifiable billing errors on our part.",
-      exceptionsOutro: "To request a refund in an exceptional case, you must contact us within 14 days after the incident or charge justifying the request, providing a detailed explanation and any relevant proof. we reserve the right to investigate and determine the validity of the request.",
-      processTitle: "Refund request process",
-      processText: "All refund requests must be submitted in writing to our support email: admin@vocalweb.club. please include your company name, the purchase date, and a detailed description of the reason for your request. we will evaluate each request individually and respond to you within a reasonable timeframe.",
-      modificationsTitle: "Modifications to the refund policy",
-      modificationsText: "We reserve the right to modify this refund policy at any time. modifications will be effective once published on our website. we recommend that you review this policy periodically.",
-      contactTitle: "Contact",
-      contactIntro: "For questions about our refund policy, please contact us at:",
+      developmentText: "La tarifa de desarrollo inicial pagada por la implementación personalizada de cualquiera de nuestros agentes de voz (entrada, salida, recordatorio, informador web, prospección) o el 'sistema support 2.0' no es reembolsable una vez que el proceso de desarrollo e implementación ha comenzado y se han dedicado recursos significativos a su proyecto. esto se debe a la naturaleza del servicio personalizado y los recursos invertidos en la configuración inicial y la adaptación de flujos de trabajo específicos para las necesidades de su negocio.",
+      maintenanceTitle: "Mantenimiento mensual (tarifa de mantenimiento)",
+      maintenanceText: "Las tarifas de mantenimiento mensual son para la provisión continua del servicio y no son reembolsables once que ha comenzado el período de servicio por el que se facturaron. si decide cancelar su suscripción de mantenimiento, su servicio permanecerá activo hasta el final del ciclo de facturación mensual pagado actual, y no se le cobrará por ciclos futuros. no se emitirán reembolsos parciales para el mes en curso.",
+      exceptionsTitle: "Casos excepcionales",
+      exceptionsIntro: "Consideraremos reembolsos solo en circunstancias excepcionales y a nuestra entera discreción, tales como:",
+      exception1: "Si Vocalweb solutions no puede proporcionar el servicio contratado debido a razones directamente atribuibles a nosotros (por ejemplo, fallas críticas e inexplicables en nuestra plataforma que impiden el funcionamiento principal del servicio durante un período prolongado y no se resuelven en un tiempo razonable), y no debido a factores externos fuera de nuestro control (por ejemplo, problemas de conectividad del cliente, configuraciones incorrectas por parte del cliente o servicios de terceros, cambios en las políticas de API de terceros).",
+      exception2: "En casos de errores de facturación claros y verificables por nuestra parte.",
+      exceptionsOutro: "Para solicitar un reembolso en un caso excepcional, debe contactarnos dentro de los 14 días posteriores al incidente o cargo que justifica la solicitud, proporcionando una explicación detallada y cualquier prueba relevante. nos reservamos el derecho de investigar y determinar la validez de la solicitud.",
+      processTitle: "Proceso de solicitud de reembolso",
+      processText: "Todas las solicitudes de reembolso deben enviarse por escrito a nuestro correo electrónico de soporte: admin@vocalweb.club. incluya el nombre de su empresa, la fecha de compra y una descripción detallada del motivo de su solicitud. evaluaremos cada solicitud individualmente y le responderemos en un plazo razonable.",
+      modificationsTitle: "Modificaciones a la política de reembolso",
+      modificationsText: "Nos reservamos el derecho de modificar esta política de reembolso en cualquier momento. las modificaciones entrarán en vigor una vez publicadas en nuestro sitio web. le recomendamos que revise esta política periódicamente.",
+      contactTitle: "Contacto",
+      contactIntro: "Para preguntas sobre nuestra política de reembolso, contáctenos en:",
     }
   },
   es: {
@@ -176,7 +177,7 @@ export const translations = {
     },
     services: {
       title: 'Potencie su negocio con IA',
-      description: 'En vocalWeb solutions, creamos flujos de trabajo automatizados impulsados por IA que van más allá de lo convencional. nuestros agentes de voz inteligentes se integran sin problemas con sus plataformas existentes, liberando a su equipo de tareas repetitivas y abriendo nuevas vías para el crecimiento y la eficiencia. desde el servicio al cliente hasta la prospección, redefinimos la automatización.',
+      description: 'En Vocalweb solutions, creamos flujos de trabajo automatizados impulsados por IA que van más allá de lo convencional. nuestros agentes de voz inteligentes se integran sin problemas con sus plataformas existentes, liberando a su equipo de tareas repetitivas y abriendo nuevas vías para el crecimiento y la eficiencia. desde el servicio al cliente hasta la prospección, redefinimos la automatización.',
       feature1: {
         title: 'Agentes inteligentes',
         description: 'Agentes de voz impulsados por IA capaces de mantener conversaciones naturales y contextuales para una interacción superior con el cliente.'
@@ -279,22 +280,22 @@ export const translations = {
     terms: {
       title: "Términos y condiciones del servicio",
       effectiveDate: "Fecha de entrada en vigor: 19 de julio de 2025",
-      intro: "Bienvenido a Vocalweb Solutions. estos Términos y condiciones ('Términos') rigen su acceso y uso de los servicios de automatización de IA y agentes de voz ('Servicios') proporcionados por Vocalweb Solutions, que también pueden denominarse 'nosotros' o 'nuestro' a lo largo de este documento. al acceder o utilizar nuestros servicios, usted manifiesta su total acuerdo de cumplir y estar sujeto a estos términos.",
+      intro: "Bienvenido a Vocalweb solutions. estos Términos y condiciones ('Términos') rigen su acceso y uso de los servicios de automatización de IA y agentes de voz ('Servicios') proporcionados por Vocalweb solutions, que también pueden denominarse 'nosotros' o 'nuestro' a lo largo de este documento. al acceder o utilizar nuestros servicios, usted manifiesta su total acuerdo de cumplir y estar sujeto a estos términos.",
       serviceTitle: "Descripción del servicio",
-      serviceText: "Vocalweb solutions ofrece soluciones de automatización de flujos de trabajo e interacción con el cliente utilizando agentes de voz impulsados por inteligencia artificial. nuestros servicios incluyen, entre otros: agente de entrada, agente de salida, agente de recordatorios, agente informador web y agente de prospección, así como el sistema integral 'support 2.0 system'. estos servicios son de naturaleza Software como Servicio (SaaS), diseñados para integrarse con plataformas de terceros como Google Workspace (Calendar, Sheets, Drive, Gmail) y otros sistemas para optimizar las operaciones comerciales.",
+      serviceText: "Vocalweb solutions ofrece soluciones de automatización de flujos de trabajo e interacción con el cliente utilizando agentes de voz impulsados por inteligencia artificial. nuestros servicios incluyen, entre otros: agente de entrada, agente de salida, agente de recordatorios, agente informador web y agente de prospección, así como el sistema integral 'support 2.0 system'. estos servicios son de naturaleza Software como Servicio (SaaS), diseñados para integrarse con plataformas de terceros como Google Workspace (Calendar, Sheets) y otros sistemas para optimizar las operaciones comerciales.",
       acceptableUseTitle: "Naturaleza de los servicios y uso aceptable",
       acceptableUseText1: "Nuestros servicios son productos de software que proporcionan herramientas y automatizaciones. no somos proveedores de servicios humanos directos (como consultoría, soporte, diseño, coaching), ni vendemos bienes físicos, ni facilitamos el comercio de criptomonedas, juegos de azar o cualquier otra categoría prohibida. nuestra oferta principal se centra en la provisión y mantenimiento de soluciones de software basadas en IA para la automatización de procesos de negocio.",
       acceptableUseText2: "Usted se compromete a utilizar nuestros servicios de acuerdo con todas las leyes y regulaciones aplicables. no utilizará los servicios para prácticas ilegales, fraudulentas, engañosas, injustas o predatorias, o prácticas que infrinjan los derechos de terceros. usted es responsable de asegurarse de tener los derechos y consentimientos necesarios de sus clientes para que Vocalweb solutions acceda y procese sus datos a través de cualquier API integrada u otras plataformas.",
       registrationTitle: "Registro y cuentas",
       registrationText: "Para acceder y utilizar nuestros servicios, es posible que deba registrar una cuenta. usted es responsable de mantener la confidencialidad de la información de su cuenta y de todas las actividades que ocurran bajo su cuenta. nos notificará de inmediato cualquier uso no autorizado.",
       apiAccessTitle: "Acceso a API de terceros",
-      apiAccessText: "Nuestros servicios interactúan con diversas API (por ejemplo, Google Calendar, Google Sheets, Google Drive, Gmail, entre otras) para ejecutar automatizaciones. al integrar estos servicios, nos otorga permiso para acceder y procesar sus datos y los de sus clientes en estas plataformas, única y exclusivamente con el fin de proporcionar el servicio contratado. usted es responsable de configurar sus credenciales de API y cualquier configuración necesaria en sus cuentas para el correcto funcionamiento de los flujos.",
+      apiAccessText: "Nuestros servicios interactúan con diversas API (por ejemplo, Google Calendar, Google Sheets, entre otras) para ejecutar automatizaciones. al integrar estos servicios, nos otorga permiso para acceder y procesar sus datos y los de sus clientes en estas plataformas, única y exclusivamente con el fin de proporcionar el servicio contratado. usted es responsable de configurar sus credenciales de API y cualquier configuración necesaria en sus cuentas para el correcto funcionamiento de los flujos.",
       pricingTitle: "Precios y pagos",
       pricingText: "Los precios de nuestros servicios se detallan en nuestro sitio web www.vocalweb.club. los pagos se procesan a través de nuestros socios de confianza. al realizar una compra, usted acepta los términos y condiciones de nuestros socios de pago y cualquier política de facturación o suscripción aplicable. los pagos de desarrollo son únicos para la implementación, y los pagos de mantenimiento son recurrentes mensualmente según el plan contratado.",
       ipTitle: "Propiedad intelectual",
       ipText: "Todo el contenido, funcionalidades y propiedad intelectual asociados con Vocalweb solutions y sus servicios (incluido software, código, diseño, gráficos, etc.) son de nuestra propiedad o nos han sido licenciados. no se le otorga ninguna licencia o derecho sobre nuestra propiedad intelectual, excepto lo necesario para utilizar los servicios de acuerdo con estos términos.",
       liabilityTitle: "Limitación de responsabilidad",
-      liabilityText: "Vocalweb solutions no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluida la pérdida de ganancias o datos, o la interrupción del negocio, que surjan del uso o la incapacidad de usar nuestros servicios, incluso si se nos ha advertido de la posibilidad de dichos daños. nuestra responsabilidad total hacia usted por cualquier reclamo que surja de estos términos se limitará al monto pagado por usted por los servicios durante los doce (12) meses anteriores al evento que dio lugar al reclamo.",
+      liabilityText: "Vocalweb solutions no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos, incluida la pérdida de ganancias o datos, o la interrupción del negocio, que surjan del uso o la incapacidad de usar nuestros servicios, incluso si se nos ha advertido de la posibilidad de tales daños. nuestra responsabilidad total hacia usted por cualquier reclamo que surja de estos términos se limitará al monto pagado por usted por los servicios durante los doce (12) meses anteriores al evento que dio lugar al reclamo.",
       modificationsTitle: "Modificaciones a los términos",
       modificationsText: "Nos reservamos el derecho de modificar estos términos en cualquier momento. le notificaremos los cambios materiales publicando los términos actualizados en nuestro sitio web y/o enviando una notificación por correo electrónico. su uso continuado de los servicios después de dichas modificaciones constituye su aceptación de los nuevos términos.",
       lawTitle: "Ley aplicable y jurisdicción",
@@ -318,9 +319,11 @@ export const translations = {
       processTitle: "Proceso de solicitud de reembolso",
       processText: "Todas las solicitudes de reembolso deben enviarse por escrito a nuestro correo electrónico de soporte: admin@vocalweb.club. incluya el nombre de su empresa, la fecha de compra y una descripción detallada del motivo de su solicitud. evaluaremos cada solicitud individualmente y le responderemos en un plazo razonable.",
       modificationsTitle: "Modificaciones a la política de reembolso",
-      modificacionesText: "Nos reservamos el derecho de modificar esta política de reembolso en cualquier momento. las modificaciones entrarán en vigor una vez publicadas en nuestro sitio web. le recomendamos que revise esta política periódicamente.",
+      modificationsText: "Nos reservamos el derecho de modificar esta política de reembolso en cualquier momento. las modificaciones entrarán en vigor una vez publicadas en nuestro sitio web. le recomendamos que revise esta política periódicamente.",
       contactTitle: "Contacto",
       contactIntro: "Para preguntas sobre nuestra política de reembolso, contáctenos en:",
     }
   }
 };
+
+    
