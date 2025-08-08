@@ -3,7 +3,6 @@ import { useRef, type MouseEvent } from 'react';
 import { useTranslations } from '@/hooks/use-translations';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Zap, Bot, SlidersHorizontal, RefreshCw } from 'lucide-react';
-import { cn } from '@/lib/utils';
 
 const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -26,7 +25,7 @@ const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, titl
       onMouseMove={onMouseMove}
       className="interactive-card-container rounded-lg h-full"
     >
-      <Card className="glassmorphism text-center p-6 h-full interactive-card card-animated-border">
+      <Card className="glassmorphism text-center p-6 h-full interactive-card">
         <CardHeader className="flex flex-col items-center">
           <div className="mb-4 p-4 bg-primary/10 rounded-full">
             {icon}

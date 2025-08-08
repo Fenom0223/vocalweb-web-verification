@@ -79,13 +79,23 @@
     }
   }
 
-  /* Interactive Card Effects */
   .interactive-card-container {
     position: relative;
     overflow: hidden;
     z-index: 1;
   }
 
+  .interactive-card-container .interactive-card {
+    position: relative;
+    z-index: 1;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-color: hsl(var(--primary) / 0.2);
+  }
+
+  .interactive-card-container:hover .interactive-card {
+    border-color: hsl(var(--primary) / 0.8);
+  }
+  
   .interactive-card-container::before {
     content: '';
     position: absolute;
@@ -94,8 +104,8 @@
     right: 0;
     bottom: 0;
     background: radial-gradient(
-      800px circle at var(--mouse-x) var(--mouse-y),
-      hsla(var(--primary), 0.15),
+      600px circle at var(--mouse-x) var(--mouse-y),
+      hsla(var(--primary), 0.1),
       transparent 40%
     );
     z-index: 0;
@@ -107,36 +117,8 @@
   .interactive-card-container:hover::before {
     opacity: 1;
   }
-  
-  .interactive-card-container .interactive-card {
-    position: relative;
-    z-index: 1;
-    transition: background-color 0.3s;
-  }
-  
-  .interactive-card-container::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(
-      400px circle at var(--mouse-x) var(--mouse-y),
-      hsla(var(--primary), 0.4),
-      transparent 40%
-    );
-    z-index: -1;
-    border-radius: inherit;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
 
-  .interactive-card-container:hover::after {
-    opacity: 1;
-  }
-
-  /* Animated border */
+  /* Animated border for pricing cards */
   @property --angle {
     syntax: '<angle>';
     initial-value: 0deg;
@@ -152,14 +134,12 @@
     }
   }
 
-  .card-animated-border {
-    position: relative;
+  .interactive-card-container .card-animated-border {
     border: 2px solid transparent;
     background-clip: padding-box;
-    border-radius: var(--radius);
   }
 
-  .card-animated-border::before {
+  .interactive-card-container .card-animated-border::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -177,8 +157,8 @@
     opacity: 0.5;
     transition: opacity 0.3s;
   }
-  
-  .interactive-card-container:hover .card-animated-border::before {
+
+  .interactive-card-container:hover .card-animated-border::after {
       opacity: 1;
   }
 }
