@@ -137,7 +137,6 @@
     position: relative;
     border: 2px solid transparent;
     background-clip: padding-box;
-    overflow: hidden;
   }
   
   .animated-border-card::after {
@@ -156,10 +155,10 @@
     );
     opacity: 0;
     transition: opacity 0.3s;
+    animation: rotate-border 6s linear infinite;
   }
 
   .animated-border-card:hover::after {
-    animation: rotate-border 6s linear infinite;
     opacity: 1;
   }
 
