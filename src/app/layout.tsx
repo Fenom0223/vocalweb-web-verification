@@ -18,7 +18,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'VocalWeb Solutions | AI-Powered Automation',
+  title: 'Vocalweb Solutions | AI-Powered Automation',
   description: 'Transform customer interactions and internal management with cutting-edge AI Voice Agents.',
 };
 

@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-                <Image src="/logo-vocal-dash.png" alt="VocalWeb Solutions Logo" width={120} height={26} />
+                <Image src="/logo-vocal-dash.png" alt="Vocalweb Solutions Logo" width={120} height={26} />
             </div>
             <p className="text-sm text-muted-foreground">{t.footer.tagline}</p>
           </div>
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-white/10 text-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} VocalWeb Solutions. {t.footer.rights}</p>
+          <p>&copy; {currentYear} Vocalweb Solutions. {t.footer.rights}</p>
           <p className="mt-2">Catamarca 584, 6300, Santa Rosa, Argentina</p>
         </div>
       </div>

@@ -29,7 +29,7 @@ const prompt = ai.definePrompt({
   name: 'answerFAQwithAIPrompt',
   input: {schema: AnswerFAQwithAIInputSchema},
   output: {schema: AnswerFAQwithAIOutputSchema},
-  prompt: `You are an AI assistant designed to answer frequently asked questions about VocalWeb Solutions.
+  prompt: `You are an AI assistant designed to answer frequently asked questions about Vocalweb Solutions.
 
   Question: {{{question}}}
 
