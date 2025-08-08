@@ -88,13 +88,13 @@
   }
 
   .product-card-container:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 
   .product-card {
     position: relative;
     z-index: 1;
-    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+    transition: border-color 0.3s, box-shadow 0.3s;
     border-color: hsl(var(--primary) / 0.2);
   }
 
@@ -112,7 +112,7 @@
     bottom: 0;
     background: radial-gradient(
       600px circle at var(--mouse-x) var(--mouse-y),
-      hsla(var(--primary), 0.1),
+      hsla(var(--primary), 0.15),
       transparent 40%
     );
     z-index: 0;
