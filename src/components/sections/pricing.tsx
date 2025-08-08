@@ -20,8 +20,10 @@ export default function Pricing() {
           ))}
         </div>
 
-        <div className="mt-16 max-w-4xl mx-auto">
-            <PricingCard {...t.pricing.comprehensive} isComprehensive />
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+            <div className="lg:col-start-2">
+                <PricingCard {...t.pricing.comprehensive} isComprehensive />
+            </div>
         </div>
       </div>
     </section>
