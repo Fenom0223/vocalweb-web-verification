@@ -11,17 +11,6 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-background" />
-        <div
-          className="absolute inset-0 animate-background-pan"
-          style={{
-            backgroundImage: `radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.25), transparent 35%), 
-                             radial-gradient(circle at 80% 70%, hsl(var(--primary) / 0.25), transparent 35%)`,
-          }}
-        />
-      </div>
-
       <div className="container mx-auto px-4 z-10 text-center">
         <h1 className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight">
           {t.hero.title}

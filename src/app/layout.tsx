@@ -29,13 +29,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} ${plusJakartaSans.variable} font-body antialiased bg-background text-foreground/90`}>
-        <LanguageProvider>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <Toaster />
-        </LanguageProvider>
+      <body className={`${inter.variable} ${plusJakartaSans.variable} font-body antialiased bg-background text-foreground/90 relative`}>
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-background" />
+          <div
+            className="absolute inset-0 animate-background-pan"
+            style={{
+              backgroundImage: `radial-gradient(circle at 20% 20%, hsl(var(--primary) / 0.15), transparent 40%), 
+                              radial-gradient(circle at 80% 70%, hsl(var(--primary) / 0.15), transparent 40%)`,
+              backgroundRepeat: 'no-repeat',
+            }}
+          />
+        </div>
+        <div className="relative z-10 flex flex-col min-h-screen">
+            <LanguageProvider>
+              <Header />
+              <main className="flex-grow">{children}</main>
+              <Footer />
+              <Toaster />
+            </LanguageProvider>
+        </div>
       </body>
     </html>
   );

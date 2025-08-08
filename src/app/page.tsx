@@ -6,12 +6,12 @@ import Cta from '@/components/sections/cta';
 
 export default function Home() {
   return (
-    <>
+    <div className="relative overflow-hidden">
       <Hero />
       <Services />
       <Pricing />
       <Faq />
       <Cta />
-    </>
+    </div>
   );
 }
