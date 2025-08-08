@@ -41,7 +41,7 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
       )}
     >
       <div className="product-card rounded-lg h-full">
-        <div className="glassmorphism product-card-content-wrapper rounded-lg flex flex-col h-full">
+        <div className="glassmorphism product-card-content-wrapper rounded-lg flex flex-col h-full p-1">
             <CardHeader className="pb-4">
               <CardTitle className={cn("text-2xl font-bold title-gradient title-glow")}>
                 {title}

@@ -81,15 +81,14 @@
 
   /* === Service Card Styles === */
   .service-card-hover {
-      transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-      border: 1px solid hsl(var(--primary) / 0.2);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: 1px solid hsl(var(--primary) / 0.2);
   }
 
   .service-card-hover:hover {
-      border-color: hsl(var(--primary) / 0.8);
-      box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
+    border-color: hsl(var(--primary) / 0.8);
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
   }
-
 
   /* === Product Card Styles === */
   @property --border-angle {
@@ -108,7 +107,8 @@
   }
   
   .product-card-container:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
+    box-shadow: 0 0 20px 5px hsl(var(--primary) / 0.3);
   }
 
   .product-card {
@@ -130,7 +130,7 @@
   }
 
   .product-card-container:hover .product-card {
-    animation-play-state: paused;
+    animation-play-state: running;
   }
 
   .product-card::before {
