@@ -118,7 +118,6 @@
     opacity: 1;
   }
 
-  /* Animated border for pricing cards */
   @property --angle {
     syntax: '<angle>';
     initial-value: 0deg;
@@ -134,12 +133,14 @@
     }
   }
 
-  .interactive-card-container .card-animated-border {
+  .animated-border-card {
+    position: relative;
     border: 2px solid transparent;
     background-clip: padding-box;
+    overflow: hidden;
   }
-
-  .interactive-card-container .card-animated-border::after {
+  
+  .animated-border-card::after {
     content: '';
     position: absolute;
     top: -50%;
@@ -153,12 +154,12 @@
       hsl(var(--primary) / 0.8) 180deg,
       transparent 270deg 360deg
     );
-    animation: rotate-border 6s linear infinite;
-    opacity: 0.5;
+    opacity: 0;
     transition: opacity 0.3s;
   }
 
-  .interactive-card-container:hover .card-animated-border::after {
-      opacity: 1;
+  .animated-border-card:hover::after {
+    animation: rotate-border 6s linear infinite;
+    opacity: 1;
   }
 }
