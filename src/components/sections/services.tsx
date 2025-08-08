@@ -2,11 +2,10 @@
 import { useTranslations } from '@/hooks/use-translations';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Zap, Bot, SlidersHorizontal, RefreshCw } from 'lucide-react';
-import { cn } from '@/lib/utils';
 
 const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => {
   return (
-    <Card className="glassmorphism text-center p-6 h-full service-card">
+    <Card className="glassmorphism text-center p-6 h-full service-card-hover">
         <CardHeader className="flex flex-col items-center">
           <div className="mb-4 p-4 bg-primary/10 rounded-full">
             {icon}

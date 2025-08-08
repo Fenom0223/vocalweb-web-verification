@@ -79,60 +79,96 @@
     }
   }
 
+  /* === Service Card Styles === */
+  .service-card-hover {
+      transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      border: 1px solid hsl(var(--primary) / 0.2);
+  }
+
+  .service-card-hover:hover {
+      border-color: hsl(var(--primary) / 0.8);
+      box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
+  }
+
+
   /* === Product Card Styles === */
+  @property --border-angle {
+    syntax: '<angle>';
+    inherits: true;
+    initial-value: 0deg;
+  }
+
   .product-card-container {
+    --border-size: 1px;
+    --border-angle: 0deg;
     position: relative;
     overflow: hidden;
     z-index: 1;
     transition: transform 0.3s ease-in-out;
   }
-
+  
   .product-card-container:hover {
     transform: scale(1.05);
   }
 
   .product-card {
     position: relative;
-    z-index: 1;
-    transition: border-color 0.3s, box-shadow 0.3s;
-    border-color: hsl(var(--primary) / 0.2);
+    z-index: 2;
+    background-image: conic-gradient(
+        from var(--border-angle),
+        hsl(var(--background)),
+        hsl(var(--background)),
+        hsl(var(--background)),
+        hsl(var(--primary) / 0.1),
+        hsl(var(--primary) / 0.5),
+        hsl(var(--primary) / 0.1),
+        hsl(var(--background)),
+        hsl(var(--background)),
+        hsl(var(--background))
+      );
+    animation: border-spin 8s linear infinite;
   }
 
   .product-card-container:hover .product-card {
-    border-color: hsl(var(--primary) / 0.8);
-    box-shadow: 0 0 15px hsl(var(--primary) / 0.6), 0 0 30px hsl(var(--primary) / 0.4);
-  }
-  
-  .product-card-container::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(
-      600px circle at var(--mouse-x) var(--mouse-y),
-      hsla(var(--primary), 0.15),
-      transparent 40%
-    );
-    z-index: 0;
-    border-radius: inherit;
-    opacity: 0;
-    transition: opacity 0.5s;
+    animation-play-state: paused;
   }
 
-  .product-card-container:hover::before {
+  .product-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: -1;
+    background: radial-gradient(
+        400px circle at var(--mouse-x) var(--mouse-y),
+        hsla(var(--primary), 0.25),
+        transparent 40%
+      );
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .product-card-container:hover .product-card::before {
     opacity: 1;
   }
 
-  /* === Service Card Styles === */
-  .service-card {
-    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    border: 1px solid hsl(var(--primary) / 0.2);
+  .product-card > * {
+    position: relative;
+    z-index: 1;
   }
 
-  .service-card:hover {
-    border-color: hsl(var(--primary) / 0.8);
-    box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
+  .product-card > :not(:first-child) {
+     margin-top: calc(-1 * var(--border-size));
+  }
+  
+  .product-card-content-wrapper {
+    background: hsl(var(--card));
+    border-radius: calc(var(--radius) - var(--border-size));
+  }
+
+  @keyframes border-spin {
+    to {
+      --border-angle: 360deg;
+    }
   }
 }
