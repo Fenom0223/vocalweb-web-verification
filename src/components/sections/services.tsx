@@ -1,8 +1,46 @@
 'use client';
-
+import { useRef, type MouseEvent } from 'react';
 import { useTranslations } from '@/hooks/use-translations';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Zap, Bot, SlidersHorizontal, RefreshCw } from 'lucide-react';
+import { cn } from '@/lib/utils';
+
+const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const onMouseMove = (e: MouseEvent<HTMLDivElement>) => {
+    const container = containerRef.current;
+    if (!container) return;
+
+    const rect = container.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    container.style.setProperty('--mouse-x', `${x}px`);
+    container.style.setProperty('--mouse-y', `${y}px`);
+  };
+
+  return (
+    <div
+      ref={containerRef}
+      onMouseMove={onMouseMove}
+      className="interactive-card-container rounded-lg h-full"
+    >
+      <Card className="glassmorphism text-center p-6 h-full interactive-card">
+        <CardHeader className="flex flex-col items-center">
+          <div className="mb-4 p-4 bg-primary/10 rounded-full">
+            {icon}
+          </div>
+          <CardTitle className="text-2xl font-bold text-foreground">{title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground">{description}</p>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+
 
 export default function Services() {
   const t = useTranslations();
@@ -40,17 +78,7 @@ export default function Services() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
-            <Card key={index} className="glassmorphism text-center p-6 card-glow">
-              <CardHeader className="flex flex-col items-center">
-                <div className="mb-4 p-4 bg-primary/10 rounded-full">
-                  {feature.icon}
-                </div>
-                <CardTitle className="text-2xl font-bold text-foreground">{feature.title}</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{feature.description}</p>
-              </CardContent>
-            </Card>
+            <ServiceCard key={index} {...feature} />
           ))}
         </div>
       </div>
