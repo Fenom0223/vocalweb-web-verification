@@ -79,30 +79,31 @@
     }
   }
 
-  .interactive-card-container {
+  /* === Product Card Styles === */
+  .product-card-container {
     position: relative;
     overflow: hidden;
     z-index: 1;
     transition: transform 0.3s ease-in-out;
   }
 
-  .interactive-card-container:hover {
+  .product-card-container:hover {
     transform: scale(1.03);
   }
 
-  .interactive-card-container .interactive-card {
+  .product-card {
     position: relative;
     z-index: 1;
     transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
     border-color: hsl(var(--primary) / 0.2);
   }
 
-  .interactive-card-container:hover .interactive-card {
+  .product-card-container:hover .product-card {
     border-color: hsl(var(--primary) / 0.8);
     box-shadow: 0 0 15px hsl(var(--primary) / 0.6), 0 0 30px hsl(var(--primary) / 0.4);
   }
   
-  .interactive-card-container::before {
+  .product-card-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -120,16 +121,18 @@
     transition: opacity 0.5s;
   }
 
-  .interactive-card-container:hover::before {
+  .product-card-container:hover::before {
     opacity: 1;
   }
 
-  .service-card-hover {
-    transition: border-color 0.3s ease-in-out;
+  /* === Service Card Styles === */
+  .service-card {
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     border: 1px solid hsl(var(--primary) / 0.2);
   }
 
-  .service-card-hover:hover {
+  .service-card:hover {
     border-color: hsl(var(--primary) / 0.8);
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.6);
   }
 }

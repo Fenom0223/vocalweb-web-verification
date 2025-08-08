@@ -36,12 +36,12 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
       ref={containerRef}
       onMouseMove={onMouseMove}
       className={cn(
-        "interactive-card-container h-full rounded-lg",
+        "product-card-container h-full rounded-lg",
         isComprehensive && "md:col-span-2 lg:col-span-1" 
       )}
     >
       <Card className={cn(
-        "glassmorphism flex flex-col h-full interactive-card"
+        "glassmorphism flex flex-col h-full product-card"
       )}>
         <CardHeader className="pb-4">
           <CardTitle className={cn("text-2xl font-bold title-gradient title-glow")}>
