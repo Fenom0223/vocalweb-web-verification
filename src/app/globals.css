@@ -83,17 +83,23 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .interactive-card-container:hover {
+    transform: scale(1.03);
   }
 
   .interactive-card-container .interactive-card {
     position: relative;
     z-index: 1;
-    transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
     border-color: hsl(var(--primary) / 0.2);
   }
 
   .interactive-card-container:hover .interactive-card {
     border-color: hsl(var(--primary) / 0.8);
+    box-shadow: 0 0 15px hsl(var(--primary) / 0.6), 0 0 30px hsl(var(--primary) / 0.4);
   }
   
   .interactive-card-container::before {
@@ -118,57 +124,12 @@
     opacity: 1;
   }
 
-  @property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-  }
-
-  @keyframes rotate-border {
-    0% {
-      --angle: 0deg;
-    }
-    100% {
-      --angle: 360deg;
-    }
-  }
-
-  .animated-border-card {
-    position: relative;
-    border: 2px solid transparent;
-    background-clip: padding-box;
-  }
-  
-  .animated-border-card::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    z-index: -1;
-    width: 200%;
-    height: 200%;
-    background: conic-gradient(
-      from var(--angle),
-      transparent 0deg 90deg,
-      hsl(var(--primary) / 0.8) 180deg,
-      transparent 270deg 360deg
-    );
-    opacity: 0;
-    transition: opacity 0.3s;
-    animation: rotate-border 6s linear infinite;
-  }
-
-  .animated-border-card:hover::after {
-    opacity: 1;
-  }
-
   .service-card-hover {
-    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
     border: 1px solid hsl(var(--primary) / 0.2);
   }
 
   .service-card-hover:hover {
     border-color: hsl(var(--primary) / 0.8);
-    box-shadow: 0 0 15px hsl(var(--primary) / 0.6), 0 0 30px hsl(var(--primary) / 0.4);
   }
 }
