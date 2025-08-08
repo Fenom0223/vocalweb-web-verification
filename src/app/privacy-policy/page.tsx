@@ -20,8 +20,6 @@ export default function PrivacyPolicyPage() {
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>{t.privacyPolicy.sheetsTitle}</strong> {t.privacyPolicy.sheetsText}</li>
             <li><strong>{t.privacyPolicy.calendarTitle}</strong> {t.privacyPolicy.calendarText}</li>
-            <li><strong>{t.privacyPolicy.driveTitle}</strong> {t.privacyPolicy.driveText}</li>
-            <li><strong>{t.privacyPolicy.mailTitle}</strong> {t.privacyPolicy.mailText}</li>
             <li><strong>{t.privacyPolicy.purposeTitle}</strong> {t.privacyPolicy.purposeText}</li>
             <li><strong>{t.privacyPolicy.tokensTitle}</strong> {t.privacyPolicy.tokensText}</li>
           </ul>
