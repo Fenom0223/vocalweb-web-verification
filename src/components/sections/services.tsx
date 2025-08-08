@@ -6,8 +6,7 @@ import { cn } from '@/lib/utils';
 
 const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => {
   return (
-    <Card className="glassmorphism text-center p-6 h-full service-card">
-      <div className="service-card-content">
+    <Card className="glassmorphism text-center p-6 h-full service-card-hover">
         <CardHeader className="flex flex-col items-center">
           <div className="mb-4 p-4 bg-primary/10 rounded-full">
             {icon}
@@ -17,7 +16,6 @@ const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, titl
         <CardContent>
           <p className="text-muted-foreground">{description}</p>
         </CardContent>
-      </div>
     </Card>
   )
 }
