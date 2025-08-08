@@ -6,16 +6,18 @@ import { cn } from '@/lib/utils';
 
 const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, title: string, description: string }) => {
   return (
-    <Card className="glassmorphism text-center p-6 h-full animated-border-card">
-      <CardHeader className="flex flex-col items-center">
-        <div className="mb-4 p-4 bg-primary/10 rounded-full">
-          {icon}
-        </div>
-        <CardTitle className="text-2xl font-bold text-foreground">{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <p className="text-muted-foreground">{description}</p>
-      </CardContent>
+    <Card className="glassmorphism text-center p-6 h-full service-card">
+      <div className="service-card-content">
+        <CardHeader className="flex flex-col items-center">
+          <div className="mb-4 p-4 bg-primary/10 rounded-full">
+            {icon}
+          </div>
+          <CardTitle className="text-2xl font-bold text-foreground">{title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground">{description}</p>
+        </CardContent>
+      </div>
     </Card>
   )
 }

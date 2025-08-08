@@ -162,4 +162,45 @@
     animation: rotate-border 6s linear infinite;
     opacity: 1;
   }
+
+  .service-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid hsl(var(--primary) / 0.2);
+    transition: border-color 0.3s ease-in-out;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    border-radius: inherit; /* Use parent's border-radius */
+    z-index: 0;
+    transition: opacity 0.4s ease-in-out;
+    opacity: 0;
+    background: conic-gradient(
+      from var(--angle),
+      transparent 0deg 90deg,
+      hsl(var(--primary) / 0.8) 180deg,
+      transparent 270deg 360deg
+    );
+    animation: rotate-border 4s linear infinite;
+  }
+
+  .service-card:hover {
+    border-color: hsl(var(--primary) / 0.8);
+  }
+
+  .service-card:hover::before {
+    opacity: 1;
+  }
+
+  .service-card-content {
+    position: relative;
+    z-index: 1;
+  }
 }
