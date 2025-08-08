@@ -136,7 +136,7 @@
     position: absolute;
     inset: 0;
     border-radius: inherit;
-    z-index: 2;
+    z-index: 0;
     background: radial-gradient(
         400px circle at var(--mouse-x) var(--mouse-y),
         hsla(var(--primary), 0.25),
@@ -152,7 +152,7 @@
 
   .product-card-content-wrapper > * {
     position: relative;
-    z-index: 3;
+    z-index: 1;
   }
   
   .product-card-content-wrapper {
@@ -160,6 +160,7 @@
     border-radius: calc(var(--radius) - var(--border-size));
     position: relative;
     z-index: 1;
+    overflow: hidden;
   }
   
 
