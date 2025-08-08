@@ -26,7 +26,7 @@ const ServiceCard = ({ icon, title, description }: { icon: React.ReactNode, titl
       onMouseMove={onMouseMove}
       className="interactive-card-container rounded-lg h-full"
     >
-      <Card className="glassmorphism text-center p-6 h-full interactive-card">
+      <Card className="glassmorphism text-center p-6 h-full interactive-card card-animated-border">
         <CardHeader className="flex flex-col items-center">
           <div className="mb-4 p-4 bg-primary/10 rounded-full">
             {icon}
