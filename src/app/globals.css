@@ -82,7 +82,6 @@
   /* === Service Card Styles === */
   .service-card-hover {
     transition: box-shadow 0.3s ease-in-out;
-    border: 1px solid transparent;
   }
 
   .service-card-hover:hover {
@@ -132,7 +131,7 @@
     animation-play-state: running;
   }
 
-  .product-card::before {
+  .product-card-content-wrapper::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -147,23 +146,22 @@
     transition: opacity 0.3s;
   }
 
-  .product-card-container:hover .product-card::before {
+  .product-card-container:hover .product-card-content-wrapper::before {
     opacity: 1;
   }
 
-  .product-card > * {
+  .product-card-content-wrapper > * {
     position: relative;
-    z-index: 1;
-  }
-
-  .product-card > :not(:first-child) {
-     margin-top: calc(-1 * var(--border-size));
+    z-index: 3;
   }
   
   .product-card-content-wrapper {
     background: hsl(var(--card));
     border-radius: calc(var(--radius) - var(--border-size));
+    position: relative;
+    z-index: 1;
   }
+  
 
   @keyframes border-spin {
     to {
