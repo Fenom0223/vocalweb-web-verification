@@ -132,29 +132,7 @@
   }
   
   .product-card-content-wrapper {
-    background: hsl(var(--card));
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-  }
-
-  .product-card-content-wrapper::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    z-index: -1;
-    background: radial-gradient(
-        400px circle at var(--mouse-x) var(--mouse-y),
-        hsla(var(--primary), 0.2),
-        transparent 40%
-      );
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-  .product-card-container:hover .product-card-content-wrapper::before {
-    opacity: 1;
+    @apply bg-card/60 backdrop-blur-lg;
   }
 
   .product-card-content-wrapper > * {

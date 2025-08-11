@@ -1,5 +1,4 @@
 'use client';
-import { useRef, type MouseEvent } from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
@@ -17,24 +16,9 @@ interface PricingCardProps {
 
 export function PricingCard({ title, description, devPrice, monthlyPrice, isComprehensive = false, features }: PricingCardProps) {
   const t = useTranslations();
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  const onMouseMove = (e: MouseEvent<HTMLDivElement>) => {
-    const container = containerRef.current;
-    if (!container) return;
-
-    const rect = container.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-
-    container.style.setProperty('--mouse-x', `${x}px`);
-    container.style.setProperty('--mouse-y', `${y}px`);
-  };
   
   return (
     <div
-      ref={containerRef}
-      onMouseMove={onMouseMove}
       className={cn(
         "product-card-container h-full rounded-lg",
         isComprehensive && "md:col-span-2 lg:col-span-1" 
