@@ -40,8 +40,8 @@ export function PricingCard({ title, description, devPrice, monthlyPrice, isComp
         isComprehensive && "md:col-span-2 lg:col-span-1" 
       )}
     >
-      <div className="product-card rounded-lg h-full">
-        <div className="product-card-content-wrapper rounded-lg flex flex-col h-full p-1">
+      <div className="product-card rounded-lg h-full p-px">
+        <div className="product-card-content-wrapper rounded-lg flex flex-col h-full">
             <CardHeader className="pb-4">
               <CardTitle className={cn("text-2xl font-bold title-gradient title-glow")}>
                 {title}
