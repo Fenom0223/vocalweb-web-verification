@@ -92,10 +92,10 @@ export const translations = {
       collectionTitle: "Information we collect and how we use it",
       collectionIntro: "Our AI automation services (powered by the n8n platform) are designed to interact with your existing applications and data, including those hosted on services like google. to do this, we need to access certain data on your behalf and on behalf of your customers, always with your explicit consent.",
       apiDataTitle: "Data from integrated services (via APIs)",
-      sheetsTitle: "Google sheets data:",
-      sheetsText: "We access your spreadsheets to read and write data according to the automation flows you configure. this may include customer data, inventories, sales records, etc., always under your control and for your specified purpose.",
-      calendarTitle: "Google calendar data:",
-      calendarText: "We access your calendar to create, modify, or read events, schedule appointments, or send reminders, as defined by your automation.",
+      sheetsTitle: "Google Drive Files Data (https://www.googleapis.com/auth/drive.file):",
+      sheetsText: "We use this permission to interact with specific spreadsheet files that you explicitly select through the official Google Picker interface. This allows us to automatically record appointment details (such as date, patient name, status, and call recordings) in your designated registration sheet. Important: We only access the files you choose directly via Google Picker. We do not access other files in your Google Drive without your specific selection.",
+      calendarTitle: "Google Calendar Data (https://www.googleapis.com/auth/calendar):",
+      calendarText: "We access your calendar to detect new appointments, modify event titles (e.g., adding a '✅ Confirmed' or '❌ Canceled' emoji), schedule appointments, or send reminders, as defined by your automation.",
       purposeTitle: "Purpose of use:",
       purposeText: "Information obtained through APIs is used *exclusively* to execute the automation flows configured by the user and to provide the contracted service. we do not use this information for marketing purposes, nor do we sell, rent, or share it with third parties for purposes unrelated to the provision of the service.",
       tokensTitle: "Storage of access tokens:",
@@ -126,8 +126,8 @@ export const translations = {
       acceptableUseText2: "You agree to use our services in accordance with all applicable laws and regulations. you shall not use the services for any illegal, fraudulent, deceptive, unfair, or predatory practices, or practices that infringe upon the rights of third parties. you are responsible for ensuring you have the necessary rights and consents from your customers for Vocalweb solutions to access and process their data through any integrated APIs or other platforms.",
       registrationTitle: "Registration and accounts",
       registrationText: "To access and use our services, you may need to register an account. you are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. you will notify us immediately of any unauthorized use.",
-      apiAccessTitle: "Access to third-party APIs",
-      apiAccessText: "Our services interact with various APIs (e.g., Google Calendar, Google Sheets) to execute automations. by integrating these services, you grant us permission to access and process your data and your customers' data on these platforms, solely and exclusively for the purpose of providing the contracted service. you are responsible for configuring your API credentials and any necessary settings in your accounts for the proper functioning of the flows.",
+      apiAccessTitle: "Access to Third-Party APIs",
+      apiAccessText: "Our services interact with various APIs (e.g., Google Calendar, Google Drive for specific files) to execute automations. By integrating these services, you grant us permission to access and process your data and your customers' data on these platforms, solely and exclusively for the purpose of providing the contracted service. You are responsible for configuring your API credentials and any necessary settings in your accounts for the proper functioning of the flows, and for selecting the specific Google Drive files (spreadsheets) you wish to integrate via the Google Picker interface.",
       pricingTitle: "Pricing and payments",
       pricingText: "The prices for our services are detailed on our website www.vocalweb.club. payments are processed through our trusted partners. by making a purchase, you agree to the terms and conditions of our payment partners and any applicable billing or subscription policy. development payments are one-time for implementation, and maintenance payments are recurring monthly based on the contracted plan.",
       ipTitle: "Intellectual property",
@@ -254,10 +254,10 @@ export const translations = {
       collectionTitle: "Información que recopilamos y cómo la usamos",
       collectionIntro: "Nuestros servicios de automatización de IA (impulsados por la plataforma n8n) están diseñados para interactuar con sus aplicaciones y datos existentes, incluidos los alojados en servicios como google. para ello, necesitamos acceder a ciertos datos en su nombre y en el de sus clientes, siempre con su consentimiento explícito.",
       apiDataTitle: "Datos de servicios integrados (a través de API)",
-      sheetsTitle: "Datos de Google sheets:",
-      sheetsText: "Accedemos a sus hojas de cálculo para leer y escribir datos de acuerdo con los flujos de automatización que configure. esto puede incluir datos de clientes, inventarios, registros de ventas, etc., siempre bajo su control y para el propósito que especifique.",
-      calendarTitle: "Datos de Google calendar:",
-      calendarText: "Accedemos a su calendario para crear, modificar o leer eventos, programar citas o enviar recordatorios, según lo defina su automatización.",
+      sheetsTitle: "Datos de archivos de Google Drive (https://www.googleapis.com/auth/drive.file):",
+      sheetsText: "Usamos este permiso para interactuar con archivos de hojas de cálculo específicos que usted selecciona explícitamente a través de la interfaz oficial de Google Picker. Esto nos permite registrar automáticamente los detalles de las citas (como fecha, nombre del paciente, estado y grabaciones de llamadas) en su hoja de registro designada. Importante: solo accedemos a los archivos que usted elige directamente a través de Google Picker. No accedemos a otros archivos en su Google Drive sin su selección específica.",
+      calendarTitle: "Datos de Google Calendar (https://www.googleapis.com/auth/calendar):",
+      calendarText: "Accedemos a su calendario para detectar nuevas citas, modificar los títulos de los eventos (por ejemplo, agregando un emoji '✅ Confirmado' o '❌ Cancelado'), programar citas o enviar recordatorios, según lo defina su automatización.",
       purposeTitle: "Propósito de uso:",
       purposeText: "La información obtenida a través de las API se utiliza *exclusivamente* para ejecutar los flujos de automatización configurados por el usuario y para proporcionar el servicio contratado. no utilizamos esta información para fines de marketing, ni la vendemos, alquilamos o compartimos con terceros para fines no relacionados con la prestación del servicio.",
       tokensTitle: "Almacenamiento de tokens de acceso:",
@@ -289,7 +289,7 @@ export const translations = {
       registrationTitle: "Registro y cuentas",
       registrationText: "Para acceder y utilizar nuestros servicios, es posible que deba registrar una cuenta. usted es responsable de mantener la confidencialidad de la información de su cuenta y de todas las actividades que ocurran bajo su cuenta. nos notificará de inmediato cualquier uso no autorizado.",
       apiAccessTitle: "Acceso a API de terceros",
-      apiAccessText: "Nuestros servicios interactúan con diversas API (por ejemplo, Google Calendar, Google Sheets) para ejecutar automatizaciones. al integrar estos servicios, nos otorga permiso para acceder y procesar sus datos y los de sus clientes en estas plataformas, única y exclusivamente con el fin de proporcionar el servicio contratado. usted es responsable de configurar sus credenciales de API y cualquier configuración necesaria en sus cuentas para el correcto funcionamiento de los flujos.",
+      apiAccessText: "Nuestros servicios interactúan con diversas API (por ejemplo, Google Calendar, Google Drive para archivos específicos) para ejecutar automatizaciones. al integrar estos servicios, nos otorga permiso para acceder y procesar sus datos y los de sus clientes en estas plataformas, única y exclusivamente con el fin de proporcionar el servicio contratado. usted es responsable de configurar sus credenciales de API y cualquier configuración necesaria en sus cuentas para el correcto funcionamiento de los flujos, y de seleccionar los archivos específicos de Google Drive (hojas de cálculo) que desea integrar a través de la interfaz de Google Picker.",
       pricingTitle: "Precios y pagos",
       pricingText: "Los precios de nuestros servicios se detallan en nuestro sitio web www.vocalweb.club. los pagos se procesan a través de nuestros socios de confianza. al realizar una compra, usted acepta los términos y condiciones de nuestros socios de pago y cualquier política de facturación o suscripción aplicable. los pagos de desarrollo son únicos para la implementación, y los pagos de mantenimiento son recurrentes mensualmente según el plan contratado.",
       ipTitle: "Propiedad intelectual",
@@ -325,5 +325,7 @@ export const translations = {
     }
   }
 };
+
+    
 
     
