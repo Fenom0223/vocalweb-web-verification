@@ -17,12 +17,17 @@ export default function PrivacyPolicyPage() {
           <p>{t.privacyPolicy.collectionIntro}</p>
 
           <h3 className="text-xl font-bold title-gradient title-glow pt-2">{t.privacyPolicy.apiDataTitle}</h3>
+          <p>{t.privacyPolicy.apiDataIntro}</p>
           <ul className="list-disc pl-5 space-y-2">
-            <li><strong>{t.privacyPolicy.sheetsTitle}</strong> {t.privacyPolicy.sheetsText}</li>
             <li><strong>{t.privacyPolicy.calendarTitle}</strong> {t.privacyPolicy.calendarText}</li>
-            <li><strong>{t.privacyPolicy.purposeTitle}</strong> {t.privacyPolicy.purposeText}</li>
-            <li><strong>{t.privacyPolicy.tokensTitle}</strong> {t.privacyPolicy.tokensText}</li>
+            <li><strong>{t.privacyPolicy.sheetsTitle}</strong> {t.privacyPolicy.sheetsText}</li>
           </ul>
+
+          <h3 className="text-xl font-bold title-gradient title-glow pt-2">{t.privacyPolicy.purposeTitle}</h3>
+          <p>{t.privacyPolicy.purposeText}</p>
+
+          <h3 className="text-xl font-bold title-gradient title-glow pt-2">{t.privacyPolicy.tokensTitle}</h3>
+          <p>{t.privacyPolicy.tokensText}</p>
 
           <h3 className="text-xl font-bold title-gradient title-glow pt-2">{t.privacyPolicy.usageDataTitle}</h3>
           <p>{t.privacyPolicy.usageDataText}</p>
@@ -32,6 +37,14 @@ export default function PrivacyPolicyPage() {
 
           <h2 className="text-2xl font-bold pt-4">{t.privacyPolicy.protectionTitle}</h2>
           <p>{t.privacyPolicy.protectionText}</p>
+
+          <h2 className="text-2xl font-bold pt-4">{t.privacyPolicy.sharingTitle}</h2>
+          <p>{t.privacyPolicy.sharingIntro}</p>
+          <ol className="list-decimal pl-5 space-y-2">
+            <li>{t.privacyPolicy.sharingPoint1}</li>
+            <li>{t.privacyPolicy.sharingPoint2}</li>
+            <li>{t.privacyPolicy.sharingPoint3}</li>
+          </ol>
 
           <h2 className="text-2xl font-bold pt-4">{t.privacyPolicy.retentionTitle}</h2>
           <p>{t.privacyPolicy.retentionText}</p>
