@@ -48,10 +48,10 @@ export const translations = {
       comprehensive: {
         title: 'Support 2.0 system',
         description: 'Unlock the full potential of AI automation. our comprehensive system integrates all voice agents for seamless synergy, managing end-to-end communication, from initial customer engagement to post-sales support. a complete solution to transform your business.',
-        devPrice: '$16,000',
-        monthlyPrice: '$2,400',
+        devPrice: '$13,200',
+        monthlyPrice: '$1,895',
         features: [
-          'All 5 AI agents included',
+          'All 4 AI agents included',
           'End-to-end communication management',
           'Priority support',
           'Advanced analytics & reporting'
@@ -215,10 +215,10 @@ export const translations = {
       comprehensive: {
         title: 'Sistema support 2.0',
         description: 'Desbloquee todo el potencial de la automatización por IA. nuestro sistema integral integra todos los agentes de voz para una sinergia perfecta, gestionando la comunicación de extremo a extremo, desde la interacción inicial con el cliente hasta el soporte posventa. una solución completa para transformar su negocio.',
-        devPrice: '$16,000',
-        monthlyPrice: '$2,400',
+        devPrice: '$13,200',
+        monthlyPrice: '$1,895',
         features: [
-          'Los 5 agentes de IA incluidos',
+          'Los 4 agentes de IA incluidos',
           'Gestión de comunicación de extremo a extremo',
           'Soporte prioritario',
           'Análisis e informes avanzados'
@@ -341,3 +341,4 @@ export const translations = {
     
 
     
+
