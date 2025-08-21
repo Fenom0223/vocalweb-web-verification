@@ -42,7 +42,7 @@ export const translations = {
       cards: [
         { title: 'Inbound AI agent', description: "Offers seamless 24/7 customer support and real-time information. This agent connects directly to your Google Sheets database to provide up-to-the-minute details on product availability, service status, or any business-specific queries, all while booking appointments and meetings automatically in Google Calendar.", devPrice: '$4,000', monthlyPrice: '$500' },
         { title: 'Outbound AI agent', description: "Automates outgoing calls for real-time customer engagement. This agent can instantly access your Google Sheets database to provide precise answers about products or services and autonomously book appointments in Google Calendar, from virtual business meetings to in-person real estate viewings or medical appointments.", devPrice: '$4,000', monthlyPrice: '$500' },
-        { title: 'Reminder AI agent', description: 'Reduces no-show rates and ensures punctuality with automatic, personalized call reminders. ideal for appointments, events, pending payments, and more.', devPrice: '$3,000', monthlyPrice: '$500' },
+        { title: 'Reminder AI agent', description: 'Reduces no-show rates and ensures punctuality with automatic, personalized call reminders. This highly demanded product delivers an exponential positive impact on ROI (up to 30%), modernizing business image with a futuristic and fully efficient experience. It eliminates the friction of routine tasks and is ideal for appointments, events, pending payments, and more.', devPrice: '$3,000', monthlyPrice: '$500' },
         { title: 'Web informer AI agent', description: 'Connects your customers with information from your website via voice. allows users to check real-time data, get quotes, or verify order status with just a call.', devPrice: '$3,000', monthlyPrice: '$400' },
       ],
       comprehensive: {
@@ -209,7 +209,7 @@ export const translations = {
       cards: [
         { title: 'Agente IA de entrada', description: 'Ofrece soporte al cliente 24/7 e información en tiempo real. Este agente se conecta directamente a su base de datos de Google Sheets para proporcionar detalles actualizados sobre la disponibilidad de productos, el estado de los servicios o cualquier consulta específica del negocio, todo mientras reserva citas y reuniones automáticamente en Google Calendar.', devPrice: '$4,000', monthlyPrice: '$500' },
         { title: 'Agente IA de salida', description: 'Automatiza llamadas salientes para una interacción con el cliente en tiempo real. Este agente puede acceder instantáneamente a su base de datos de Google Sheets para proporcionar respuestas precisas sobre productos o servicios y reservar de forma autónoma citas en Google Calendar, desde reuniones de negocios virtuales hasta visitas a propiedades inmobiliarias o citas médicas presenciales.', devPrice: '$4,000', monthlyPrice: '$500' },
-        { title: 'Agente IA de recordatorios', description: 'Reduce las ausencias y asegura la puntualidad con recordatorios de llamadas automáticos y personalizados. ideal para citas, eventos, pagos pendientes y más.', devPrice: '$3,000', monthlyPrice: '$500' },
+        { title: 'Agente IA de recordatorios', description: 'Reduce las ausencias y asegura la puntualidad con recordatorios de llamadas automáticos y personalizados. Este producto de alta demanda ofrece un impacto positivo exponencial en el ROI (hasta un 30%), modernizando la imagen del negocio con una experiencia futurista y totalmente eficiente. Elimina la fricción de las tareas rutinarias y es ideal para citas, eventos, pagos pendientes y más.', devPrice: '$3,000', monthlyPrice: '$500' },
         { title: 'Agente IA informador web', description: 'Conecta a sus clientes con información de su sitio web a través de la voz. permite a los usuarios consultar datos en tiempo real, obtener cotizaciones o verificar el estado de un pedido con solo una llamada.', devPrice: '$3,000', monthlyPrice: '$400' },
       ],
       comprehensive: {
@@ -341,4 +341,3 @@ export const translations = {
     
 
     
-
