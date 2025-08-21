@@ -14,16 +14,13 @@ export default function Pricing() {
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground">{t.pricing.description}</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch max-w-7xl mx-auto">
           {t.pricing.cards.map((card, index) => (
             <PricingCard key={index} {...card} />
           ))}
-        </div>
-
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
-            <div className="lg:col-start-2">
-                <PricingCard {...t.pricing.comprehensive} isComprehensive />
-            </div>
+          <div className="md:col-span-2 lg:col-span-1">
+             <PricingCard {...t.pricing.comprehensive} isComprehensive />
+          </div>
         </div>
       </div>
     </section>
