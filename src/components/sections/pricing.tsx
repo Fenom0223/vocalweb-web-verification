@@ -18,7 +18,7 @@ export default function Pricing() {
           {t.pricing.cards.map((card, index) => (
             <PricingCard key={index} {...card} />
           ))}
-          <div className="md:col-span-2 lg:col-span-1">
+          <div className="md:col-span-2 lg:col-span-3">
              <PricingCard {...t.pricing.comprehensive} isComprehensive />
           </div>
         </div>
