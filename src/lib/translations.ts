@@ -15,7 +15,7 @@ export const translations = {
     },
     services: {
       title: 'Power your business with AI',
-      description: 'At Vocalweb solutions, we create automated AI-powered workflows that go beyond the conventional. our intelligent voice agents seamlessly integrate with your existing platforms, freeing your team from repetitive tasks and opening new avenues for growth and efficiency. from customer service to prospecting, we redefine automation.',
+      description: 'At Vocalweb solutions, we create automated AI-powered workflows that go beyond the conventional. our intelligent voice agents seamlessly integrate with your existing platforms, freeing your team from repetitive tasks and opening new avenues for growth and efficiency. from customer service to lead engagement, we redefine automation.',
       feature1: {
         title: 'Intelligent agents',
         description: 'AI-powered voice agents capable of natural, context-aware conversations for superior customer engagement.'
@@ -40,15 +40,14 @@ export const translations = {
       monthlyFee: 'Monthly maintenance',
       cta: 'Get started',
       cards: [
-        { title: 'Inbound AI agent', description: 'Offers seamless 24/7 customer support. answers FAQs, guides users, and automatically qualifies leads, freeing your team for more complex interactions. fluid integration with your CRM systems and knowledge bases.', devPrice: '$4,000', monthlyPrice: '$500' },
-        { title: 'Outbound AI agent', description: 'Automates outgoing calls for surveys, appointment confirmations, or follow-ups. with natural voice and contextual responsiveness, this agent ensures every interaction is effective and personalized.', devPrice: '$4,000', monthlyPrice: '$500' },
+        { title: 'Inbound AI agent', description: "Offers seamless 24/7 customer support and real-time information. This agent connects directly to your Google Sheets database to provide up-to-the-minute details on product availability, service status, or any business-specific queries, all while booking appointments and meetings automatically in Google Calendar.", devPrice: '$4,000', monthlyPrice: '$500' },
+        { title: 'Outbound AI agent', description: "Automates outgoing calls for real-time customer engagement. This agent can instantly access your Google Sheets database to provide precise answers about products or services and autonomously book appointments in Google Calendar, from virtual business meetings to in-person real estate viewings or medical appointments.", devPrice: '$4,000', monthlyPrice: '$500' },
         { title: 'Reminder AI agent', description: 'Reduces no-show rates and ensures punctuality with automatic, personalized call reminders. ideal for appointments, events, pending payments, and more.', devPrice: '$3,000', monthlyPrice: '$500' },
         { title: 'Web informer AI agent', description: 'Connects your customers with information from your website via voice. allows users to check real-time data, get quotes, or verify order status with just a call.', devPrice: '$3,000', monthlyPrice: '$400' },
-        { title: 'Cold caller AI agent', description: 'Optimizes your prospecting efforts. this agent initiates sales conversations, qualifies leads, and schedules meetings, transforming customer acquisition processes with unmatched efficiency.', devPrice: '$5,000', monthlyPrice: '$500' },
       ],
       comprehensive: {
         title: 'Support 2.0 system',
-        description: 'Unlock the full potential of AI automation. our comprehensive system integrates all voice agents for seamless synergy, managing end-to-end communication, from initial prospecting to post-sales support. a complete solution to transform your business.',
+        description: 'Unlock the full potential of AI automation. our comprehensive system integrates all voice agents for seamless synergy, managing end-to-end communication, from initial customer engagement to post-sales support. a complete solution to transform your business.',
         devPrice: '$16,000',
         monthlyPrice: '$2,400',
         features: [
@@ -126,7 +125,7 @@ export const translations = {
       effectiveDate: "Effective date: july 19, 2025",
       intro: "Welcome to Vocalweb solutions. These Terms and Conditions (\"Terms\") govern your access to and use of the AI automation and voice agent services (\"Services\") provided by Vocalweb solutions, which may also be referred to as \"we\", \"our\", or \"us\" throughout this document. By accessing or using our Services, you signify your complete agreement to comply with and be bound by these Terms.",
       serviceTitle: "Service description",
-      serviceText: "Vocalweb solutions offers workflow automation and customer interaction solutions using artificial intelligence-powered voice agents. Our services include, but are not limited to: inbound agent, outbound agent, reminder agent, web informer agent, and cold caller agent, and the comprehensive 'Support 2.0 System.' These services are Software as a Service (SaaS) in nature, designed to integrate with third-party platforms such as Google Workspace (Calendar, and specific files from Google Drive via Google Picker) and other systems to optimize business operations.",
+      serviceText: "Vocalweb solutions offers workflow automation and customer interaction solutions using artificial intelligence-powered voice agents. Our services include, but are not limited to: inbound agent, outbound agent, reminder agent, web informer agent, and the comprehensive 'Support 2.0 System.' These services are Software as a Service (SaaS) in nature, designed to integrate with third-party platforms such as Google Workspace (Calendar, and specific files from Google Drive via Google Picker) and other systems to optimize business operations.",
       acceptableUseTitle: "Nature of services and acceptable use",
       acceptableUseText1: "Our services are software products that provide tools and automations. we are not direct human service providers (such as consulting, support, design, coaching), nor do we sell physical goods, nor do we facilitate cryptocurrency trading, gambling, or any other prohibited category. our core offering focuses on the provision and maintenance of AI-based software solutions for business process automation.",
       acceptableUseText2: "You agree to use our services in accordance with all applicable laws and regulations. you shall not use the services for any illegal, fraudulent, deceptive, unfair, or predatory practices, or practices that infringe upon the rights of third parties. you are responsible for ensuring you have the necessary rights and consents from your customers for Vocalweb solutions to access and process their data through any integrated APIs or other platforms.",
@@ -152,7 +151,7 @@ export const translations = {
       effectiveDate: "Effective date: july 19, 2025",
       intro: "At Vocalweb solutions, we are committed to your satisfaction with our AI automation services. We understand that situations may arise requiring a refund policy. Please read the following terms carefully.",
       developmentTitle: "Initial development (development fee)",
-      developmentText: "The initial development fee paid for the custom implementation of any of our voice agents (inbound, outbound, reminder, web informer, prospecting) or the 'support 2.0 system' is non-refundable once the development and implementation process has begun and significant resources have been dedicated to your project. This is due to the nature of the personalized service and the resources invested in the initial setup and adaptation of specific workflows for your business needs.",
+      developmentText: "The initial development fee paid for the custom implementation of any of our voice agents (inbound, outbound, reminder, web informer) or the 'support 2.0 system' is non-refundable once the development and implementation process has begun and significant resources have been dedicated to your project. This is due to the nature of the personalized service and the resources invested in the initial setup and adaptation of specific workflows for your business needs.",
       maintenanceTitle: "Monthly maintenance (maintenance fee)",
       maintenanceText: "Monthly maintenance fees are for the ongoing provision of the service and are non-refundable once the service period for which they were billed has begun. If you decide to cancel your maintenance subscription, your service will remain active until the end of the current paid monthly billing cycle, and you will not be charged for future cycles. No partial refunds will be issued for the current month.",
       exceptionsTitle: "Exceptional cases",
@@ -183,7 +182,7 @@ export const translations = {
     },
     services: {
       title: 'Potencie su negocio con IA',
-      description: 'En Vocalweb solutions, creamos flujos de trabajo automatizados impulsados por IA que van más allá de lo convencional. nuestros agentes de voz inteligentes se integran sin problemas con sus plataformas existentes, liberando a su equipo de tareas repetitivas y abriendo nuevas vías para el crecimiento y la eficiencia. desde el servicio al cliente hasta la prospección, redefinimos la automatización.',
+      description: 'En Vocalweb solutions, creamos flujos de trabajo automatizados impulsados por IA que van más allá de lo convencional. nuestros agentes de voz inteligentes se integran sin problemas con sus plataformas existentes, liberando a su equipo de tareas repetitivas y abriendo nuevas vías para el crecimiento y la eficiencia. desde el servicio al cliente hasta la interacción con leads, redefinimos la automatización.',
       feature1: {
         title: 'Agentes inteligentes',
         description: 'Agentes de voz impulsados por IA capaces de mantener conversaciones naturales y contextuales para una interacción superior con el cliente.'
@@ -208,15 +207,14 @@ export const translations = {
       monthlyFee: 'Mantenimiento mensual',
       cta: 'Comenzar',
       cards: [
-        { title: 'Agente IA de entrada', description: 'Ofrece soporte al cliente 24/7. responde preguntas frecuentes, guía a los usuarios y califica leads automáticamente, liberando a su equipo para interacciones más complejas. integración fluida con sus sistemas CRM y bases de conocimiento.', devPrice: '$4,000', monthlyPrice: '$500' },
-        { title: 'Agente IA de salida', description: 'Automatiza llamadas salientes para encuestas, confirmaciones de citas o seguimientos. con voz natural y capacidad de respuesta contextual, este agente asegura que cada interacción sea efectiva y personalizada.', devPrice: '$4,000', monthlyPrice: '$500' },
+        { title: 'Agente IA de entrada', description: 'Ofrece soporte al cliente 24/7 e información en tiempo real. Este agente se conecta directamente a su base de datos de Google Sheets para proporcionar detalles actualizados sobre la disponibilidad de productos, el estado de los servicios o cualquier consulta específica del negocio, todo mientras reserva citas y reuniones automáticamente en Google Calendar.', devPrice: '$4,000', monthlyPrice: '$500' },
+        { title: 'Agente IA de salida', description: 'Automatiza llamadas salientes para una interacción con el cliente en tiempo real. Este agente puede acceder instantáneamente a su base de datos de Google Sheets para proporcionar respuestas precisas sobre productos o servicios y reservar de forma autónoma citas en Google Calendar, desde reuniones de negocios virtuales hasta visitas a propiedades inmobiliarias o citas médicas presenciales.', devPrice: '$4,000', monthlyPrice: '$500' },
         { title: 'Agente IA de recordatorios', description: 'Reduce las ausencias y asegura la puntualidad con recordatorios de llamadas automáticos y personalizados. ideal para citas, eventos, pagos pendientes y más.', devPrice: '$3,000', monthlyPrice: '$500' },
         { title: 'Agente IA informador web', description: 'Conecta a sus clientes con información de su sitio web a través de la voz. permite a los usuarios consultar datos en tiempo real, obtener cotizaciones o verificar el estado de un pedido con solo una llamada.', devPrice: '$3,000', monthlyPrice: '$400' },
-        { title: 'Agente IA de prospección', description: 'Optimiza sus esfuerzos de prospección. este agente inicia conversaciones de ventas, califica leads y agenda reuniones, transformando los procesos de adquisición de clientes con una eficiencia inigualable.', devPrice: '$5,000', monthlyPrice: '$500' },
       ],
       comprehensive: {
         title: 'Sistema support 2.0',
-        description: 'Desbloquee todo el potencial de la automatización por IA. nuestro sistema integral integra todos los agentes de voz para una sinergia perfecta, gestionando la comunicación de extremo a extremo, desde la prospección inicial hasta el soporte posventa. una solución completa para transformar su negocio.',
+        description: 'Desbloquee todo el potencial de la automatización por IA. nuestro sistema integral integra todos los agentes de voz para una sinergia perfecta, gestionando la comunicación de extremo a extremo, desde la interacción inicial con el cliente hasta el soporte posventa. una solución completa para transformar su negocio.',
         devPrice: '$16,000',
         monthlyPrice: '$2,400',
         features: [
@@ -294,7 +292,7 @@ export const translations = {
       effectiveDate: "Fecha de entrada en vigor: 19 de julio de 2025",
       intro: "Bienvenido a Vocalweb solutions. estos Términos y condiciones ('Términos') rigen su acceso y uso de los servicios de automatización de IA y agentes de voz ('Servicios') proporcionados por Vocalweb solutions, que también pueden denominarse 'nosotros' o 'nuestro' a lo largo de este documento. al acceder o utilizar nuestros servicios, usted manifiesta su total acuerdo de cumplir y estar sujeto a estos términos.",
       serviceTitle: "Descripción del servicio",
-      serviceText: "Vocalweb solutions ofrece soluciones de automatización de flujos de trabajo e interacción con el cliente utilizando agentes de voz impulsados por inteligencia artificial. Nuestros servicios incluyen, entre otros: agente de entrada, agente de salida, agente de recordatorios, agente informador web y agente de prospección, y el sistema integral 'Support 2.0 System'. Estos servicios son de naturaleza Software como Servicio (SaaS), diseñados para integrarse con plataformas de terceros como Google Workspace (Calendar y archivos específicos de Google Drive a través de Google Picker) y otros sistemas para optimizar las operaciones comerciales.",
+      serviceText: "Vocalweb solutions ofrece soluciones de automatización de flujos de trabajo e interacción con el cliente utilizando agentes de voz impulsados por inteligencia artificial. Nuestros servicios incluyen, entre otros: agente de entrada, agente de salida, agente de recordatorios, agente informador web y el sistema integral 'Support 2.0 System'. Estos servicios son de naturaleza Software como Servicio (SaaS), diseñados para integrarse con plataformas de terceros como Google Workspace (Calendar y archivos específicos de Google Drive a través de Google Picker) y otros sistemas para optimizar las operaciones comerciales.",
       acceptableUseTitle: "Naturaleza de los servicios y uso aceptable",
       acceptableUseText1: "Nuestros servicios son productos de software que proporcionan herramientas y automatizaciones. no somos proveedores de servicios humanos directos (como consultoría, soporte, diseño, coaching), ni vendemos bienes físicos, ni facilitamos el comercio de criptomonedas, juegos de azar o cualquier otra categoría prohibida. nuestra oferta principal se centra en la provisión y mantenimiento de soluciones de software basadas en IA para la automatización de procesos de negocio.",
       acceptableUseText2: "Usted se compromete a utilizar nuestros servicios de acuerdo con todas las leyes y regulaciones aplicables. no utilizará los servicios para prácticas ilegales, fraudulentas, engañosas, injustas o predatorias, o prácticas que infrinjan los derechos de terceros. usted es responsable de asegurarse de tener los derechos y consentimientos necesarios de sus clientes para que Vocalweb solutions acceda y procese sus datos a través de cualquier API integrada u otras plataformas.",
@@ -320,7 +318,7 @@ export const translations = {
       effectiveDate: "Fecha de entrada en vigor: 19 de julio de 2025",
       intro: "En Vocalweb solutions, estamos comprometidos con su satisfacción con nuestros servicios de automatización de IA. entendemos que pueden surgir situaciones que requieran una política de reembolso. por favor, lea atentamente los siguientes términos.",
       developmentTitle: "Desarrollo inicial (tarifa de desarrollo)",
-      developmentText: "La tarifa de desarrollo inicial pagada por la implementación personalizada de cualquiera de nuestros agentes de voz (entrada, salida, recordatorio, informador web, prospección) o el 'sistema support 2.0' no es reembolsable una vez que el proceso de desarrollo e implementación ha comenzado y se han dedicado recursos significativos a su proyecto. esto se debe a la naturaleza del servicio personalizado y los recursos invertidos en la configuración inicial y la adaptación de flujos de trabajo específicos para las necesidades de su negocio.",
+      developmentText: "La tarifa de desarrollo inicial pagada por la implementación personalizada de cualquiera de nuestros agentes de voz (entrada, salida, recordatorio, informador web) o el 'sistema support 2.0' no es reembolsable una vez que el proceso de desarrollo e implementación ha comenzado y se han dedicado recursos significativos a su proyecto. esto se debe a la naturaleza del servicio personalizado y los recursos invertidos en la configuración inicial y la adaptación de flujos de trabajo específicos para las necesidades de su negocio.",
       maintenanceTitle: "Mantenimiento mensual (tarifa de mantenimiento)",
       maintenanceText: "Las tarifas de mantenimiento mensual son para la provisión continua del servicio y no son reembolsables once que ha comenzado el período de servicio por el que se facturaron. si decide cancelar su suscripción de mantenimiento, su servicio permanecerá activo hasta el final del ciclo de facturación mensual pagado actual, y no se le cobrará por ciclos futuros. no se emitirán reembolsos parciales para el mes en curso.",
       exceptionsTitle: "Casos excepcionales",
@@ -343,3 +341,4 @@ export const translations = {
     
 
     
+
